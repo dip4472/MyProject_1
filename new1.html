@@ -25,7 +25,7 @@
     // Add a click event listener to the button
     generatePdfButton.addEventListener('click', function() {
       // Get the HTML element to be converted to PDF
-      var element = document.getElementById('cv-template'); // Replace 'your-html-element-id' with the ID of your HTML element
+      var element = document.getElementById('cv-template'); 
 
       // Set the desired scale value (e.g., 0.5 for 50% scale)
       var scaleValue = 0.5;
@@ -34,7 +34,7 @@
       html2pdf()
         .from(element)
         .set({ scale: scaleValue, exclude: [generatePdfButton] }) // Set the scale option and exclude the button element
-        .save('testing.pdf'); // Replace 'your-file-name' with the desired name for your PDF file
+        .save('testing.pdf'); 
     });
   });
 </script>
