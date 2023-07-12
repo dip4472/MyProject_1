@@ -1,0 +1,44 @@
+body {
+  background-color: #008B8B;
+}
+
+#cv-form {
+  /* display: none; */
+  /* margin-top: 10px; */
+}
+#cv-template {
+  display: none;
+}
+.btn-sm {
+  background-color: #008B8B;
+  border: solid black;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 3px 1px;
+  cursor: pointer;
+}
+.btn-lg {
+  background-color: #008B8B;
+  border: solid black;
+  color: white;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.myimg {
+  /* border: 1px solid red; */
+  border-radius: 50%;
+  width: 200px;
+}
+
+.background {
+  background-color: #DCDCDC;
+}
